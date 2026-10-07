@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Burger House | Premium Burgers</title>
+
+    <meta name="description"
+        content="Burger House - Premium burgers, crispy fries, delicious combos and fast service.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar" id="navbar">
+
+    <a href="#home" class="logo">
+        <span class="logo-icon">🍔</span>
+        <span>BURGER<span>HOUSE</span></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#offers">Offers</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+
+        <a href="tel:8287555397" class="call-btn">
+            <i class="fa-solid fa-phone"></i>
+            <span>8287555397</span>
+        </a>
+
+        <button class="cart-btn" id="cartBtn">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-count" id="cartCount">0</span>
+        </button>
+
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-bg-circle circle-one"></div>
+    <div class="hero-bg-circle circle-two"></div>
+
+    <div class="container hero-container">
+
+        <div class="hero-content reveal">
+
+            <div class="hero-badge">
+                <span>🔥</span>
+                FRESH • HOT • PREMIUM
+            </div>
+
+            <h1>
+                THE ULTIMATE
+                <span>BURGER</span>
+                EXPERIENCE
+            </h1>
+
+            <p>
+                Juicy burgers, crispy fries and unforgettable flavors —
+                freshly prepared just for you.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#menu" class="primary-btn">
+                    ORDER NOW
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#menu" class="secondary-btn">
+                    EXPLORE MENU
+                </a>
+
+            </div>
+
+            <a href="tel:8287555397" class="hero-phone">
+                <i class="fa-solid fa-phone"></i>
+                Call Now: <strong>8287555397</strong>
+            </a>
+
+        </div>
+
+
+        <div class="hero-image reveal">
+
+            <div class="hero-glow"></div>
+
+            <img
+                src="https://png.pngtree.com/png-clipart/20240711/original/pngtree-berger-finger-chips-cartoon-png-image_15538737.png"
+                alt="Premium Burger"
+            >
+
+            <div class="floating-card card-rating">
+                <span>⭐</span>
+                <div>
+                    <strong>4.9/5</strong>
+                    <small>Customer Rating</small>
+                </div>
+            </div>
+
+            <div class="floating-card card-fresh">
+                <span>🔥</span>
+                <div>
+                    <strong>100%</strong>
+                    <small>Fresh & Hot</small>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= OFFER ================= -->
+
+<section class="offer-section" id="offers">
+
+    <div class="container">
+
+        <div class="offer-box reveal">
+
+            <div class="offer-content">
+
+                <span class="offer-label">LIMITED TIME OFFER</span>
+
+                <h2>
+                    MEGA BURGER
+                    <span>COMBO</span>
+                </h2>
+
+                <p>
+                    Burger + Crispy Fries + Cold Drink
+                </p>
+
+                <div class="price">
+                    <span class="old-price">₹399</span>
+                    ₹299
+                </div>
+
+                <a href="#menu" class="offer-btn">
+                    GRAB THE DEAL
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+            <div class="offer-image">
+                <img
+                    src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=900&q=90"
+                    alt="Burger Combo">
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MENU ================= -->
+
+<section class="menu-section" id="menu">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span>OUR MENU</span>
+
+            <h2>
+                SIGNATURE
+                <strong>BURGERS</strong>
+            </h2>
+
+            <p>
+                Handcrafted with premium ingredients and packed with flavor.
+            </p>
+
+        </div>
+
+
+        <div class="filter-buttons reveal">
+
+            <button class="filter-btn active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-filter="burger">
+                Burgers
+            </button>
+
+            <button class="filter-btn" data-filter="fries">
+                Fries
+            </button>
+
+            <button class="filter-btn" data-filter="drinks">
+                Drinks
+            </button>
+
+            <button class="filter-btn" data-filter="combo">
+                Combos
+            </button>
+
+        </div>
+
+
+        <div class="menu-grid" id="menuGrid">
+
+            <!-- PRODUCT 1 -->
+
+            <div class="menu-card reveal" data-category="burger">
+
+                <div class="product-image">
+
+                    <span class="popular-tag">
+                        BESTSELLER
+                    </span>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?auto=format&fit=crop&w=800&q=85"
+                        alt="Classic Cheese Burger">
+
+                    <button class="quick-add">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-content">
+
+                    <div class="product-rating">
+                        ★★★★★
+                    </div>
+
+                    <h3>Classic Cheese Burger</h3>
+
+                    <p>
+                        Juicy beef patty, melted cheese, lettuce and special sauce.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>₹149</strong>
+
+                        <button
+                            class="add-cart"
+                            data-name="Classic Cheese Burger"
+                            data-price="149"
+                            data-image="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?auto=format&fit=crop&w=800&q=85">
+                            ADD +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT 2 -->
+
+            <div class="menu-card reveal" data-category="burger">
+
+                <div class="product-image">
+
+                    <span class="popular-tag red">
+                        HOT
+                    </span>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=85"
+                        alt="Double Smash Burger">
+
+                    <button class="quick-add">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-content">
+
+                    <div class="product-rating">
+                        ★★★★★
+                    </div>
+
+                    <h3>Double Smash Burger</h3>
+
+                    <p>
+                        Double juicy patties, cheddar cheese and smoky house sauce.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>₹199</strong>
+
+                        <button
+                            class="add-cart"
+                            data-name="Double Smash Burger"
+                            data-price="199"
+                            data-image="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=85">
+                            ADD +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT 3 -->
+
+            <div class="menu-card reveal" data-category="burger">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=800&q=85"
+                        alt="Crispy Chicken Burger">
+
+                    <button class="quick-add">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-content">
+
+                    <div class="product-rating">
+                        ★★★★★
+                    </div>
+
+                    <h3>Crispy Chicken Burger</h3>
+
+                    <p>
+                        Crispy chicken fillet, fresh lettuce and creamy mayo.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>₹179</strong>
+
+                        <button
+                            class="add-cart"
+                            data-name="Crispy Chicken Burger"
+                            data-price="179"
+                            data-image="https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=800&q=85">
+                            ADD +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT 4 -->
+
+            <div class="menu-card reveal" data-category="burger">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=85"
+                        alt="Spicy Fire Burger">
+
+                    <button class="quick-add">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-content">
+
+                    <div class="product-rating">
+                        ★★★★★
+                    </div>
+
+                    <h3>Spicy Fire Burger</h3>
+
+                    <p>
+                        Spicy crispy patty, jalapeños, cheese and fiery sauce.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>₹189</strong>
+
+                        <button
+                            class="add-cart"
+                            data-name="Spicy Fire Burger"
+                            data-price="189"
+                            data-image="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=85">
+                            ADD +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT 5 -->
+
+            <div class="menu-card reveal" data-category="fries">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=85"
+                        alt="Loaded Fries">
+
+                    <button class="quick-add">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-content">
+
+                    <div class="product-rating">
+                        ★★★★★
+                    </div>
+
+                    <h3>Loaded Crispy Fries</h3>
+
+                    <p>
+                        Crispy golden fries loaded with cheese and special sauce.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>₹129</strong>
+
+                        <button
+                            class="add-cart"
+                            data-name="Loaded Crispy Fries"
+                            data-price="129"
+                            data-image="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=85">
+                            ADD +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT 6 -->
+
+            <div class="menu-card reveal" data-category="drinks">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=85"
+                        alt="Cold Drink">
+
+                    <button class="quick-add">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-content">
+
+                    <div class="product-rating">
+                        ★★★★★
+                    </div>
+
+                    <h3>Chilled Fresh Drink</h3>
+
+                    <p>
+                        Ice-cold refreshing drink to complete your meal.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>₹79</strong>
+
+                        <button
+                            class="add-cart"
+                            data-name="Chilled Fresh Drink"
+                            data-price="79"
+                            data-image="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=85">
+                            ADD +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about-section" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-image reveal">
+
+            <img
+                src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1000&q=90"
+                alt="Burger restaurant">
+
+            <div class="experience-card">
+                <strong>10+</strong>
+                <span>Years Of<br>Experience</span>
+            </div>
+
+        </div>
+
+
+        <div class="about-content reveal">
+
+            <span class="section-label">
+                OUR STORY
+            </span>
+
+            <h2>
+                CRAFTED FOR
+                <span>BURGER LOVERS</span>
+            </h2>
+
+            <p>
+                We believe a great burger is more than just food.
+                It should be juicy, crispy, cheesy and packed with flavor.
+            </p>
+
+            <p>
+                Every burger is prepared using carefully selected
+                ingredients and our signature sauces.
+            </p>
+
+            <div class="stats">
+
+                <div>
+                    <strong data-target="5000">0</strong>
+                    <span>Happy Customers</span>
+                </div>
+
+                <div>
+                    <strong data-target="20">0</strong>
+                    <span>Signature Recipes</span>
+                </div>
+
+                <div>
+                    <strong data-target="100">0</strong>
+                    <span>% Fresh</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY US ================= -->
+
+<section class="features-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span>WHY US</span>
+
+            <h2>
+                WHY PEOPLE
+                <strong>LOVE US</strong>
+            </h2>
+
+        </div>
+
+
+        <div class="features-grid">
+
+            <div class="feature-card reveal">
+                <div class="feature-icon">🔥</div>
+                <h3>Fresh Ingredients</h3>
+                <p>Every burger is prepared fresh with quality ingredients.</p>
+            </div>
+
+            <div class="feature-card reveal">
+                <div class="feature-icon">👨‍🍳</div>
+                <h3>Expert Chefs</h3>
+                <p>Our chefs create delicious flavors you will remember.</p>
+            </div>
+
+            <div class="feature-card reveal">
+                <div class="feature-icon">⚡</div>
+                <h3>Fast Service</h3>
+                <p>Fresh and hot food served quickly whenever you order.</p>
+            </div>
+
+            <div class="feature-card reveal">
+                <div class="feature-icon">❤️</div>
+                <h3>Made With Love</h3>
+                <p>Every meal is prepared with passion and attention.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= REVIEWS ================= -->
+
+<section class="reviews-section" id="reviews">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span>TESTIMONIALS</span>
+
+            <h2>
+                WHAT OUR
+                <strong>CUSTOMERS SAY</strong>
+            </h2>
+
+        </div>
+
+
+        <div class="review-slider">
+
+            <button class="slider-btn prev" id="prevReview">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+
+            <div class="review-track" id="reviewTrack">
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>
+                        "Absolutely delicious! The burger was juicy
+                        and the fries were perfect."
+                    </p>
+                    <h4>Rahul Sharma</h4>
+                    <span>Happy Customer</span>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>
+                        "One of the best burgers I've ever had.
+                        Amazing taste and presentation!"
+                    </p>
+                    <h4>Priya</h4>
+                    <span>Happy Customer</span>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>
+                        "Fresh ingredients, fast service and
+                        fantastic flavor."
+                    </p>
+                    <h4>Aman</h4>
+                    <span>Happy Customer</span>
+                </div>
+
+            </div>
+
+            <button class="slider-btn next" id="nextReview">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta-section">
+
+    <div class="container">
+
+        <div class="cta-box reveal">
+
+            <div>
+                <span>HUNGRY?</span>
+
+                <h2>
+                    LET'S `
+                    <strong>THAT.</strong>
+                </h2>
+
+                <p>
+                    Get your favorite burger delivered hot and fresh.
+                </p>
+            </div>
+
+            <a href="tel:8287555397" class="cta-button">
+                <i class="fa-solid fa-phone"></i>
+                CALL NOW
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact-section" id="contact">
+
+    <div class="container contact-grid">
+
+        <div class="contact-info reveal">
+
+            <span class="section-label">
+                GET IN TOUCH
+            </span>
+
+            <h2>
+                READY FOR YOUR
+                <span>NEXT BURGER?</span>
+            </h2>
+
+            <p>
+                Have a question or want to place an order?
+                Get in touch with us today.
+            </p>
+
+            <a href="tel:8287555397" class="contact-phone">
+                <i class="fa-solid fa-phone"></i>
+
+                <div>
+                    <small>CALL US</small>
+                    <strong>8287555397</strong>
+                </div>
+            </a>
+
+            <div class="opening">
+                <i class="fa-regular fa-clock"></i>
+
+                <div>
+                    <small>OPENING HOURS</small>
+                    <strong>11:00 AM — 11:00 PM</strong>
+                </div>
+            </div>
+
+        </div>
+
+
+        <form class="contact-form reveal" id="contactForm">
+
+            <h3>Send Us A Message</h3>
+
+            <div class="input-group">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required>
+
+            </div>
+
+            <div class="input-group">
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Phone Number"
+                    required>
+
+            </div>
+
+            <div class="input-group">
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Your Message"
+                    required></textarea>
+
+            </div>
+
+            <button type="submit" class="submit-btn">
+                SEND MESSAGE
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">🍔</span>
+                BURGER<span>HOUSE</span>
+            </a>
+
+            <p>
+                Premium burgers. Bold flavors.
+                Unforgettable moments.
+            </p>
+
+            <div class="social-links">
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>QUICK LINKS</h4>
+
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#offers">Offers</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>CONTACT</h4>
+
+            <a href="tel:8287555397">
+                📞 8287555397
+            </a>
+
+            <span>
+                📍 India
+            </span>
+
+            <span>
+                🕐 11 AM - 11 PM
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Burger House. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= CART ================= -->
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<aside class="cart-drawer" id="cartDrawer">
+
+    <div class="cart-header">
+
+        <h3>
+            Your Cart
+        </h3>
+
+        <button id="closeCart">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+    </div>
+
+    <div class="cart-items" id="cartItems">
+
+        <div class="empty-cart">
+            <span>🍔</span>
+            <p>Your cart is empty.</p>
+            <small>Add something delicious!</small>
+        </div>
+
+    </div>
+
+    <div class="cart-footer">
+
+        <div class="cart-total">
+            <span>Total</span>
+            <strong id="cartTotal">₹0</strong>
+        </div>
+
+        <a href="tel:8287555397" class="checkout-btn">
+            ORDER NOW
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</aside>
+
+
+<!-- ================= TOAST ================= -->
+
+<div class="toast" id="toast">
+
+    <i class="fa-solid fa-circle-check"></i>
+
+    <span id="toastMessage">
+        Added to cart!
+    </span>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
